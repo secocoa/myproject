@@ -2,66 +2,366 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09d3ff4-a55c-4201-9b86-6077017c3313" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/fonts/TaurusNormal.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/fonts/TaurusNormal.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/fonts/TaurusNormal.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/404/left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/404/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/images/face/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myblog/static/adminManage/lib/ueditor/ueditor.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day05/two/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day05/two/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day05/two/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day05/two/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day06/App/tmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day06/App/tmp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day06/App/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day06/App/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day06/templates/student.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day06/templates/student.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day06/templates/students.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day06/templates/students.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day06/templates/teamList.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day06/templates/teamList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminmanage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminmanage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminmanage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminmanage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/js/jquery-1.11.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/js/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-ar-AR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-ar-AR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-bg-BG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-bg-BG.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-ca-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-ca-ES.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-cs-CZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-cs-CZ.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-da-DK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-da-DK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-de-DE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-de-DE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-es-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-es-ES.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-es-EU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-es-EU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-fa-IR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-fa-IR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-fi-FI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-fi-FI.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-fr-FR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-fr-FR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-he-IL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-he-IL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-hu-HU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-hu-HU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-id-ID.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-id-ID.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-it-IT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-it-IT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-ja-JP.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-ja-JP.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-ko-KR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-ko-KR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-lt-LT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-lt-LT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-nb-NO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-nb-NO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-nl-NL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-nl-NL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-pl-PL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-pl-PL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-pt-BR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-pt-PT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-pt-PT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-ro-RO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-ro-RO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-ru-RU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-ru-RU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-sk-SK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-sk-SK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-sl-SI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-sl-SI.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-sr-RS-Latin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-sr-RS-Latin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-sr-RS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-sr-RS.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-sv-SE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-sv-SE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-th-TH.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-th-TH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-tr-TR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-tr-TR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-uk-UA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-uk-UA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-vi-VN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-vi-VN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-zh-CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/lang/summernote-zh-TW.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/summernote.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/summernote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/summernote/summernote.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/anchor/anchor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/attachment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/attachment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/images/alignicon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/images/alignicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/images/file-icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/images/file-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/images/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/images/success.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/attachment/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/background/background.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/background/background.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/background/background.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/background/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/background/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/charts/chart.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/charts/charts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/charts/charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/charts/charts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/charts/images/charts0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/charts/images/charts1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/charts/images/charts2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/charts/images/charts3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/charts/images/charts4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/charts/images/charts5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/emotion/emotion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/emotion/emotion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/emotion/emotion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/emotion/images/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/emotion/images/bface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/emotion/images/cface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/emotion/images/fface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/emotion/images/jxface2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/emotion/images/tface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/emotion/images/wface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/emotion/images/yface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/gmap/gmap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/help/help.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/help/help.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/help/help.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/image/image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/image/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/image/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/image/images/alignicon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/image/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/image/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/image/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/image/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/image/images/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/image/images/success.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/image/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/insertframe/insertframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/internal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/link/link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/map/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/map/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/music/music.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/music/music.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/music/music.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/preview/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/images/addimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/images/brush.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/images/delimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/images/delimgH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/images/empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/images/emptyH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/images/eraser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/images/redo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/images/redoH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/images/scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/images/scaleH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/images/size.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/images/undo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/images/undoH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/scrawl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/scrawl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/scrawl/scrawl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/searchreplace/searchreplace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/searchreplace/searchreplace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/snapscreen/snapscreen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/spechars/spechars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/spechars/spechars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/table/dragicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/table/edittable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/table/edittable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/table/edittable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/table/edittd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/table/edittip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/template/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/template/images/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/template/images/pre0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/template/images/pre1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/template/images/pre2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/template/images/pre3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/template/images/pre4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/template/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/template/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/template/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/images/center_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/images/file-icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/images/file-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/images/left_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/images/none_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/images/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/images/right_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/images/success.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/video.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/video/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/webapp/webapp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/wordimage/imageUploader.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/wordimage/tangram.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/wordimage/wordimage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/dialogs/wordimage/wordimage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/addimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/alldeletebtnhoverskin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/alldeletebtnupskin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/deletedisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/deleteenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/listbackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/localimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/rotateleftdisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/rotateleftenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/rotaterightdisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/rotaterightenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/en/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/zh-cn/images/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/zh-cn/images/localimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/zh-cn/images/music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/zh-cn/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/lang/zh-cn/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/php/Uploader.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/php/action_crawler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/php/action_list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/php/action_upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/php/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/php/controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/css/ueditor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/css/ueditor.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/dialogbase.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/anchor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/arrow_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/arrow_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/button-bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/cancelbutton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/charts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/cursor_h.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/cursor_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/cursor_v.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/cursor_v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/dialog-title-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/filescan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/highlighted.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/icons-all.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/loaderror.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/lock.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/neweditor-tab-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/pagebreak.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/sortable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/sparator_v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/table-cell-align.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/tangram-colorpicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/toolbar_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/unhighlighted.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/videologo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/word.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/default/images/wordpaste.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/themes/iframe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/SyntaxHighlighter/shCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/codemirror/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/codemirror/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/adapters/mootools-adapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/adapters/prototype-adapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/adapters/standalone-framework.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/highcharts-more.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/highcharts-more.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/highcharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/highcharts.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/annotations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/annotations.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/canvas-tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/canvas-tools.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/data.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/drilldown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/drilldown.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/exporting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/exporting.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/funnel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/funnel.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/heatmap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/heatmap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/map.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/no-data-to-display.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/themes/dark-blue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/themes/dark-green.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/themes/gray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/themes/grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/highcharts/themes/skies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/jquery-1.10.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/jquery-1.10.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/jquery-1.10.2.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/video-js/font/vjs.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/video-js/font/vjs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/video-js/font/vjs.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/video-js/font/vjs.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/video-js/video-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/video-js/video-js.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/video-js/video-js.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/video-js/video.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/video-js/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/webuploader/Uploader.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/webuploader/webuploader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/webuploader/webuploader.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/webuploader/webuploader.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/webuploader/webuploader.flashonly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/webuploader/webuploader.flashonly.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/webuploader/webuploader.html5only.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/webuploader/webuploader.html5only.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/webuploader/webuploader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/webuploader/webuploader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/webuploader/webuploader.withoutimage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/ueditor.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/ueditor.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/ueditor.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/ueditor.parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myManage/lib/ueditor/ueditor.parse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/upload/caiqiang/第一次测试剑来背景.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/upload/caiqiang/第一次测试剑来背景.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/adminmanage/add_article.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adminmanage/add_article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/adminmanage/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adminmanage/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/adminmanage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adminmanage/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,20 +432,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="auth_user" value="1" />
-          <entry key="blog" value="9" />
-          <entry key="blog_label" value="4" />
-          <entry key="category" value="7" />
-          <entry key="comments" value="2" />
+          <entry key="auth_user" value="2" />
+          <entry key="blog" value="13" />
+          <entry key="blog_label" value="5" />
+          <entry key="category" value="9" />
+          <entry key="comments" value="3" />
           <entry key="css" value="15" />
           <entry key="django_migrations" value="1" />
           <entry key="django_session" value="2" />
-          <entry key="html" value="38" />
-          <entry key="jpg" value="2" />
-          <entry key="js" value="18" />
-          <entry key="label" value="6" />
+          <entry key="html" value="43" />
+          <entry key="jpg" value="3" />
+          <entry key="js" value="21" />
+          <entry key="label" value="8" />
           <entry key="png" value="17" />
-          <entry key="py" value="70" />
+          <entry key="py" value="77" />
           <entry key="rnc" value="1" />
           <entry key="sql" value="3" />
           <entry key="svg" value="4" />
@@ -156,11 +456,11 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="15" />
-          <entry key="Database Element" value="40" />
-          <entry key="HTML" value="38" />
-          <entry key="Image" value="19" />
-          <entry key="JavaScript" value="18" />
-          <entry key="Python" value="70" />
+          <entry key="Database Element" value="51" />
+          <entry key="HTML" value="43" />
+          <entry key="Image" value="20" />
+          <entry key="JavaScript" value="21" />
+          <entry key="Python" value="77" />
           <entry key="RNG Compact" value="1" />
           <entry key="SVG" value="4" />
           <entry key="Scratch" value="3" />
@@ -169,10 +469,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cell" value="457" />
+          <entry key="cell" value="465" />
           <entry key="css" value="156" />
-          <entry key="html" value="6288" />
-          <entry key="py" value="12500" />
+          <entry key="html" value="8366" />
+          <entry key="py" value="15401" />
           <entry key="ts" value="1" />
           <entry key="txt" value="33" />
         </counts>
@@ -180,10 +480,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="157" />
-          <entry key="HTML" value="6287" />
+          <entry key="HTML" value="8365" />
           <entry key="PLAIN_TEXT" value="33" />
-          <entry key="Python" value="12500" />
-          <entry key="Scratch" value="457" />
+          <entry key="Python" value="15401" />
+          <entry key="Scratch" value="465" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
@@ -194,14 +494,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adminmanage/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="-1160">
+              <caret line="224" column="28" lean-forward="true" selection-start-line="224" selection-start-column="28" selection-end-line="224" selection-end-column="28" />
               <folding>
-                <marker date="1543379196017" expanded="true" signature="2369:2403" ph="..." />
-                <marker date="1543379196017" expanded="true" signature="5656:5917" ph="..." />
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1543430830011" expanded="true" signature="2383:2417" ph="..." />
+                <marker date="1543430830011" expanded="true" signature="5674:5936" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/label">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/comments">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/category">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/adminmanage/update-article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -217,84 +557,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/adminmanage/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/comments">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/label">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/adminmanage/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/blog_label">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/adminmanage/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="113" column="55" selection-start-line="113" selection-start-column="55" selection-end-line="113" selection-end-column="55" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/static/upload/caiqiang/第一次测试剑来背景.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adminmanage/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
+            <state relative-caret-position="558">
               <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1543377373191" expanded="true" signature="136:229" ph="..." />
-                <marker date="1543377373191" expanded="true" signature="254:259" ph="..." />
-                <marker date="1543377373191" expanded="true" signature="1364:1369" ph="..." />
-                <marker date="1543377373191" expanded="true" signature="2068:2073" ph="..." />
-                <marker date="1543377373191" expanded="true" signature="2141:2308" ph="..." />
+                <marker date="1543386712858" expanded="true" signature="136:229" ph="..." />
+                <marker date="1543386712858" expanded="true" signature="254:259" ph="..." />
+                <marker date="1543386712858" expanded="true" signature="1116:1121" ph="..." />
+                <marker date="1543386712858" expanded="true" signature="1364:1369" ph="..." />
+                <marker date="1543386712858" expanded="true" signature="2068:2073" ph="..." />
+                <marker date="1543386712858" expanded="true" signature="2141:2308" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/auth_user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/adminmanage/add_article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -339,14 +637,15 @@
         <option value="$PROJECT_DIR$/templates/notice.html" />
         <option value="$PROJECT_DIR$/static/myManage/css/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/static/myManage/css/style.css" />
-        <option value="$PROJECT_DIR$/templates/adminmanage/base.html" />
-        <option value="$PROJECT_DIR$/templates/adminmanage/add_article.html" />
         <option value="$PROJECT_DIR$/blogs/settings.py" />
         <option value="$PROJECT_DIR$/adminmanage/myhelper.py" />
         <option value="$PROJECT_DIR$/adminmanage/models.py" />
-        <option value="$PROJECT_DIR$/adminmanage/views.py" />
         <option value="$PROJECT_DIR$/templates/adminmanage/index.html" />
         <option value="$PROJECT_DIR$/adminmanage/urls.py" />
+        <option value="$PROJECT_DIR$/templates/adminmanage/base.html" />
+        <option value="$PROJECT_DIR$/templates/adminmanage/add_article.html" />
+        <option value="$PROJECT_DIR$/templates/adminmanage/update-article.html" />
+        <option value="$PROJECT_DIR$/adminmanage/views.py" />
       </list>
     </option>
   </component>
@@ -421,13 +720,6 @@
             <path>
               <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="cq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogs" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -435,12 +727,6 @@
               <item name="blogs" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="adminmanage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
@@ -464,11 +750,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/myManage/js" />
       <recent name="$PROJECT_DIR$/templates/myblog" />
       <recent name="$PROJECT_DIR$/adminmanage" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/static/login/image" />
-      <recent name="$PROJECT_DIR$/static/login/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/login/image" />
@@ -568,7 +854,7 @@
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984472" visible="true" weight="0.13237728" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984472" visible="true" weight="0.2007722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5015528" side_tool="true" weight="0.13237728" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -582,8 +868,8 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3298647" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4997242" visible="true" weight="0.24453694" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5002758" side_tool="true" weight="0.24453694" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4997242" visible="true" weight="0.2580645" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5002758" side_tool="true" weight="0.2580645" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3298647" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -622,41 +908,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/templates/adminmanage/update-article.html</url>
+          <line>96</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myblog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/login/js/myloginjs.js" />
-    <entry file="file://$USER_HOME$/blogs/blogs/blog/templates/blog.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminmanage/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/myblog/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/python1806/lib/python3.6/site-packages/django/shortcuts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1087">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/login/css/logindemo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-151">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/notice.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1058">
@@ -668,13 +932,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/adminmanage/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -816,26 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogs/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1478">
-          <caret line="120" column="14" selection-start-line="120" selection-start-column="14" selection-end-line="120" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminmanage/myhelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1543324254899" expanded="true" signature="134:139" ph="..." />
-            <marker date="1543324254899" expanded="true" signature="134:169" ph="..." />
-            <marker date="1543324254899" expanded="true" signature="337:338" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/django_migrations">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -856,31 +1093,57 @@
         <state relative-caret-position="-501" />
       </provider>
     </entry>
-    <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/category">
+    <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/adminmanage/add_article.html">
+    <entry file="file://$PROJECT_DIR$/static/myManage/js/jquery-1.12.4.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminmanage/sms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="-1466">
+          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pyenv/versions/python1806/lib/python3.6/site-packages/tinymce/media/tiny_mce/tiny_mce_src.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="14514" column="8" selection-start-line="14514" selection-start-column="8" selection-end-line="14514" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/myManage/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/adminmanage/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="113" column="55" selection-start-line="113" selection-start-column="55" selection-end-line="113" selection-end-column="55" />
+        <state relative-caret-position="391">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/label">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+    <entry file="file://$PROJECT_DIR$/templates/adminmanage/login.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <filtering enabled="true" />
+          <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminmanage/myhelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1543324254899" expanded="true" signature="134:139" ph="..." />
+            <marker date="1543324254899" expanded="true" signature="134:169" ph="..." />
+            <marker date="1543324254899" expanded="true" signature="337:338" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -891,17 +1154,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adminmanage/models.py">
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.6/envs/python1806/lib/python3.6/site-packages/django/db/models/query.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="232">
+          <caret line="383" selection-start-line="383" selection-end-line="383" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminmanage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminmanage/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1543377373191" expanded="true" signature="136:229" ph="..." />
-            <marker date="1543377373191" expanded="true" signature="254:259" ph="..." />
-            <marker date="1543377373191" expanded="true" signature="1364:1369" ph="..." />
-            <marker date="1543377373191" expanded="true" signature="2068:2073" ph="..." />
-            <marker date="1543377373191" expanded="true" signature="2141:2308" ph="..." />
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="120" column="14" selection-start-line="120" selection-start-column="14" selection-end-line="120" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminmanage/add_article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/auth_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminmanage/update-article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -913,10 +1216,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/user">
+    <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/category">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2897f04a-35ff-426d-9c0e-d2fb65b94609/schema/blogtest/table/label">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminmanage/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1543386712858" expanded="true" signature="136:229" ph="..." />
+            <marker date="1543386712858" expanded="true" signature="254:259" ph="..." />
+            <marker date="1543386712858" expanded="true" signature="1116:1121" ph="..." />
+            <marker date="1543386712858" expanded="true" signature="1364:1369" ph="..." />
+            <marker date="1543386712858" expanded="true" signature="2068:2073" ph="..." />
+            <marker date="1543386712858" expanded="true" signature="2141:2308" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -927,30 +1253,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/upload/caiqiang/第一次测试剑来背景.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/adminmanage/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="-1160">
+          <caret line="224" column="28" lean-forward="true" selection-start-line="224" selection-start-column="28" selection-end-line="224" selection-end-column="28" />
           <folding>
-            <marker date="1543379196017" expanded="true" signature="2369:2403" ph="..." />
-            <marker date="1543379196017" expanded="true" signature="5656:5917" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/adminmanage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminmanage/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1543430830011" expanded="true" signature="2383:2417" ph="..." />
+            <marker date="1543430830011" expanded="true" signature="5674:5936" ph="..." />
           </folding>
         </state>
       </provider>

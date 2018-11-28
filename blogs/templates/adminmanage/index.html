@@ -38,7 +38,7 @@
                         </td>
                         <td class="hidden-sm">{{ list.2}}</td>
                         <td>{{list.0.creat_time }}</td>
-                        <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
+                        <td><a href={% url 'myManage:update_article' list.0.id %}>修改</a> <a rel="6">删除</a></td>
                     </tr>
                     {% endfor %}
                     </tbody>

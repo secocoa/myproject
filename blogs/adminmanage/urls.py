@@ -12,5 +12,7 @@ urlpatterns = [
     url(r'^unamerepeat/$',views.is_repeat,name='isrepeat'), #检测用户名是否重复
     url(r'^write_article/$',views.write_article,name='article'), #写博客
     url(r'^save_article/$',views.save_article,name='savearticle'), #博客发布或者保存草稿
-    url(r'^update_article/$',views.update_article,name='update_article'), #博客修改
+    url(r'^update_article/(\d+)/$',views.update_article,name='update_article'), #博客修改
+    url(r'^update_article/$',views.update_article,name='update_article'),#博客修改
+    url(r'^get_article/$',views.get_article,name='get_article') #修改博客界面 从数据库动态返回修改博客的数据
 ]
