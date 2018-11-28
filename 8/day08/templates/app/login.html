@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>短信验证</title>
+    <script src="{% static "jquery-1.11.3/jquery.min.js" %}"></script>
+</head>
+<body>
+<form action="" >
+    {% csrf_token %}
+    手机号 <input type="text" name="phone" id="phone"> <br>
+    验证码 <input type="text" name="sms"> <input type="button" name="yzm" value="获取验证码" id="yzm"> <br>
+    <input type="submit" value="登录">
+</form>
+
+</body>
+</html>
+<script>
+    console.log($('#yzm').val())
+    $('#yzm').click(function () {
+        console.log('start')
+        var time = 3
+        var timer
+        var _this = this  //获取当前按钮
+        _this.disabled = true //禁止再次点击
+        timer = setInterval(function () {
+            time --
+            _this.value = "" + time + "秒后再次验证"
+            if(time<1){
+                _this.disabled = false
+                _this.value = '获取验证码'
+                clearInterval(timer)
+                timer = null
+            }
+        },1000)
+    //通知后台给手机发送验证码
+        value = $('#phone').val()
+        $.get("/app/send/",{"phone":value},function (data) {
+            console.log(data)
+
+        },'json')
+
+    })
+
+
+</script>

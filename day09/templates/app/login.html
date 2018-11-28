@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>验证登录</title>
+</head>
+<body>
+    <form action="{% url 'app:dologin' %}" method="post">
+        验证码 <input type="text" name="yzm" > <img src="{% url 'app:yzm' %}" onclick="this.src='{% url 'app:yzm' %}?'+Math.random()">
+        <br>
+        <input type="submit" value="提交">
+        {% csrf_token %}
+    </form>
+</body>
+</html>

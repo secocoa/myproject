@@ -1,0 +1,90 @@
+{% extends 'adminmanage/base.html' %}
+{% block mainbody %}
+
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-lg-10 col-md-offset-2 main" id="main">
+        <div class="row">
+            <form action="{% url 'myManage:savearticle' %}" method="post" class="add-article-form" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="col-md-9">
+                    <h1 class="page-header">撰写新文章</h1>
+                    <div class="form-group">
+                        <label for="article-title" class="sr-only">标题</label>
+                        <input type="text" id="article-title" name="title" class="form-control" placeholder="在此处输入标题"
+                               required autofocus autocomplete="off">
+                    </div>
+                    <div id="mytinymce" class="form-group">
+                        <label for="article-content" class="sr-only">内容</label>
+                        <textarea id="article-content" name="contents"></textarea>
+                        <div id="reply_textarea_id " style="height:0px"></div>
+                    </div>
+                    <div class="add-article-box">
+                        <h2 class="add-article-box-title"><span>描述</span></h2>
+                        <div class="add-article-box-content">
+                            <input id="describe" class="form-control" name="describe" autocomplete="off"></input>
+                            <span class="prompt-text">描述是可选的手工创建的内容总结，并可以在网页描述中使用</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="page-header">操作</h1>
+                    <div class="add-article-box">
+                        <h2 class="add-article-box-title"><span>请选择博客栏目</span></h2>
+                        <div class="add-article-box-content">
+                            <ul class="category-list">
+                                {% for category in categorys %}
+                                    <li>
+                                        <label>
+                                            <input name="category" type="radio" value="{{ category.id }}" checked>
+                                            {{ category.cname }} <em class="hidden-md"> </em></label>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="add-article-box">
+                        <h2 class="add-article-box-title"><span>标签</span></h2>
+                        <div class="add-article-box-content">
+                            <input type="text" class="form-control" placeholder="输入新标签" name="tags" autocomplete="off">
+                            <span class="prompt-text">多个标签请用英文逗号,隔开</span></div>
+                    </div>
+                    <div class="add-article-box">
+                        <h2 class="add-article-box-title"><span>标题图片</span></h2>
+                        <div class="add-article-box-content">
+                            <input type="file" class="form-control" placeholder="点击按钮选择图片" id="pictureUpload"
+                                   name="picture" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="add-article-box">
+                        <h2 class="add-article-box-title"><span>发布</span></h2>
+                        <div class="add-article-box-content">
+                            <p><label>公开度：</label><input type="radio" name="visibility" value="0" checked/>公开 <input
+                                    type="radio" name="visibility" value="1"/>加密</p>
+                        <div class="add-article-box-footer">
+                            <input class="btn btn-primary" type="submit" name="submit" value="发布"></input>
+                            <input class="btn btn-primary" type="submit" name="draft" value="保存草稿"></input>
+                            <input class="btn btn-primary" type="submit" name="delete" value="取消"> </input>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+{% endblock mainbody %}
+
+{% block myjs %}
+
+    <script src="/static/tiny_mce/tiny_mce.js"></script>
+    <script>
+        tinyMCE.init({
+            'mode': 'textareas',
+            'width': 1118,
+            'height': 400,
+
+        })
+    </script>
+    <script type="text/javascript">
+    </script>
+
+
+{% endblock %}

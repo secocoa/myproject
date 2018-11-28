@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+<form action="{% url 'mycookies:register' %}" method="post">
+    {% csrf_token %}
+    用户名 <input type="text" name="uname"> <br>
+    密码 <input type="password" name="password"> <br>
+    <input type="submit" value="注册">
+{#    手机号码 <input type="text" name="phone" > <br>#}
+{#    验证码 <input type="text" name="sms" id="yzm"> <input type="button" value="获取验证码" > <br>#}
+</form>
+</body>
+</html>

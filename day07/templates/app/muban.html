@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>变量</title>
+</head>
+<body>
+{{ a }} ----- {{ b }}
+{{ c.0 }} <br>
+{% for value in c %}
+{{ value  }} <br>
+{% endfor %}
+
+{% for key,value in d.items %}
+{{ key }} --- {{value}}
+{% endfor %}
+<hr>
+{% for foo in stu %}
+{{ foo.sname }}
+{% endfor %}
+
+</body>
+</html>

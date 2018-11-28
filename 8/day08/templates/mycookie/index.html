@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        a{
+            text-decoration: none;
+            display: inline-block;
+            width: 80px;
+            height: 30px;
+            line-height: 30px;
+            background: gold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+{% if uname %}
+    <h2>尊贵的{{ uname }}</h2> <a href="{% url 'mycookies:logout' %}">退出登录</a>
+{% else %}
+    <h2>请去正规场所</h2> <a href="{% url "mycookies:login" %}">登录</a> <a href="{% url 'mycookies:register' %}">注册</a>
+{% endif %}
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生列表</title>
+</head>
+<body>
+{#{% for s in stu %}#}
+{#    {% if s.sage > 20 %}#}
+{#        <li>{{ s.sname }}</li>#}
+{#    {% endif %}#}
+{#{% endfor %}#}
+<hr>
+{% for foo in l1 reversed%}
+    <li>{{ foo }}</li>
+{% empty %}
+    数据不存在
+{% endfor %}
+
+<hr>
+
+</body>
+</html>

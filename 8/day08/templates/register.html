@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <script src="{% static 'jquery-1.11.3/jquery.min.js' %}"></script>
+</head>
+<body>
+    <form action="">
+        用户名 <input type="text" name="uname" id="username">  <span></span> <br>
+        密码 <input type="password" name="upassword"> <br>
+        <input type="submit" value="注册">
+    </form>
+</body>
+</html>
+<script>
+    function getdata(data) {
+        console.log(data)
+    }
+</script>
+
+
+{#  <script src="http://10.8.156.51:9000/app/homework/func= 表结构完全一 insert into 表1 select * from 表22. 表结构不一样（这种情况下得指定列名）insert into 表1 (列名1,列名2,列名3)select  列1,列2,列3 from 表23、只从另外一个表取部分值"></script> #}
+
+<script>
+
+   /* $("#username").blur(function () {
+
+        value = this.value
+        $.get('url:{% url 'app:homework' %}',{'uname':value,},function(data){
+            console.log(data)
+        },'json')
+
+    }) */
+    
+    
+    $('#username').focus(function () {
+        this.value = ''
+        this.nextElementSibling.innerText= ''
+    })
+    $('#username').blur(function () {
+        $('span').html('')
+        value = this.value
+        $.get('{% url "app:homework" %}',{'uname':value},function(data){
+            console.log(data)
+            $('span').html(data.msg)
+        },'json')
+    })
+    
+</script>

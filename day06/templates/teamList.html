@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>班级列表</title>
 </head>
 <body>
-$END$
+<table border="1" width="80%" cellspacing="0">
+    {% for team in data %}
+            <tr>
+                <td><a href="/App/studentlist/{{ team.id }}/">{{ team.tname }}</a></td>
+            </tr>
+    {% endfor %}
+</table>
+
+
 </body>
 </html>

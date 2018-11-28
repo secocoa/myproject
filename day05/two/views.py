@@ -18,3 +18,20 @@ def addgroup(request):
     g1.team = Team.objects.last()
     g1.save()
     return HttpResponse("增加小组")
+
+def delete_team(request):
+    #外键设置为DO_NOTHING,从表中有记录的班级无法删除
+    team  = Team.objects.first()
+    team.delete()
+    return HttpResponse('删除班级')
+
+#正向查询
+def find_group(requeset):
+    team = Team.objects.first()
+    print(team.group_set.all())
+    return  HttpResponse("查询成功")
+# 反向查询
+ def lookup_group(request):
+     team = Team.objects.filter(pk=6)
+     print(team.group.team_id)
+     return  HttpResponse('查询成功')

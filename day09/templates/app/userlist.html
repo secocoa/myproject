@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>userlist</title>
+
+    <!-- Bootstrap -->
+    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div class="bs-example" data-example-id="simple-table">
+    <table class="table">
+        <caption>Optional table caption.</caption>
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>用户名</th>
+            <th>密码</th>
+            <th>年龄</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for user in users %}
+            <tr>
+                <th scope="row">{{ user.id }}</th>
+                <td>{{ user.uname }}</td>
+                <td>{{ user.password }}</td>
+                <td>{{ user.uage }}</td>
+            </tr>
+        {% endfor %}
+
+        </tbody>
+    </table>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+
+                        {% if page.has_previous %}
+                            <li>
+                             <a href="{% url 'app:userlist1' page.number|add:'-1' %}" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                            </li>
+                        {% else %}
+                            <li class="disabled">
+                              <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                            </li>
+                        {% endif %}
+
+
+
+                    {% for num in page_range %}
+                        {% ifequal num page.number %}
+                            <li class="active"><a href="{% url 'app:userlist1' num %}">{{ num }}</a></li>
+                        {% endifequal %}
+                        {% ifnotequal num page.number %}
+                            <li ><a href="{% url 'app:userlist1' num %}">{{ num }}</a></li>
+                        {% endifnotequal %}
+
+
+                    {% endfor %}
+                {% if page.has_next %}
+                    <li>
+                        <a href="{% url 'app:userlist1' page.number|add:'1' %}" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                    {% else %}
+                        <li class="disabled">
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                {% endif %}
+
+                </ul>
+            </nav>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="{% static 'bootstrap/js/jquery-1.12.4.min.js' %}"></script>
+
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>

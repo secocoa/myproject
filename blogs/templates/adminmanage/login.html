@@ -1,0 +1,116 @@
+{% load static %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <title>登录界面</title>
+    {#    <link href="{% static 'login/css/default.css' %}" rel="stylesheet" type="text/css" />#}
+    <!--必要样式-->
+    <link href="{% static 'login/css/loginstyles.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static 'login/css/logindemo.css' %}" rel="stylesheet" type="text/css"/>
+    {#    <link href="{% static 'login/css/loaders.css' %}" rel="stylesheet" type="text/css" />#}
+
+</head>
+<body>
+<form action="{% url 'myManage:login' %}" method="post">
+    {% csrf_token %}
+<div class='login'>
+    <div class='login_title'>
+        <span>用户登录</span>
+    </div>
+    <div class='login_fields'>
+        <div class='login_fields__user'>
+            <div class='icon'>
+                <img alt="" src='{% static 'login/image/user_icon_copy.png' %}'>
+            </div>
+            <input name="login" placeholder='请输入用户名' maxlength="10" type='text' autocomplete="off" />
+        </div>
+        <div class='login_fields__password'>
+            <div class='icon'>
+                <img alt="" src='{% static '/login/image/lock_icon_copy.png' %}'>
+            </div>
+            <input name="pwd" placeholder='请输入密码' maxlength="8" type='text' autocomplete="off">
+
+        </div>
+        <div class='login_fields__password'>
+             <input id="phone" name="phone" placeholder='手机号码' maxlength="11" type='text' autocomplete="off">
+                <input type="text" name="yzm" placeholder="请输入手机验证码">
+                <div class='validation' style="opacity: 2; right: 10px;top: -3px">
+                    <input id="sms" type="submit" value="获取验证码" style="margin-left: -20px;
+  margin-top: 0px;
+  border-radius: 20px;
+  background: transparent;
+  padding: 10px 10px;
+  border: 2px solid #4FA1D9;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 12px;
+  ">
+                </div>
+        </div>
+        <div class='login_fields__submit'>
+            <input type='submit' value='登录'>
+            <input type="button" value="注册">
+            <p><a href="">忘记密码</a></p>
+            <p><a href="">返回首页</a></p>
+        </div>
+    </div>
+    <div class='success'>
+    </div>
+    </form>
+
+</body>
+</html>
+
+<script type="text/javascript" src="{% static 'login/js/jquery.min.js' %}"></script>
+
+
+<script type="text/javascript" src="{% static '/login/js/loginParticleground.js' %}"></script>
+
+
+<script type="text/javascript">
+
+    //粒子背景特效
+    $('body').particleground({
+        dotColor: '#E8DFE8',
+        lineColor: '#133b88'
+    });
+
+</script>
+<script type="text/javascript">
+     var time = 3
+     var timer //定时器
+     console.log($("input[type='hidden']"))
+
+     $("#sms").click(function(){
+        console.log("start")
+        var _this = this  //获取当前的按钮对象
+        this.disabled = true  //禁止点击
+        timer = setInterval(function(){
+            time--
+            _this.value = '' + time + "后再获取"
+            if (time < 1){
+                _this.disabled = false
+                _this.value = '获取验证码'
+                clearInterval(timer)
+                timer = null
+            }
+
+        },1000)
+         var csrf = $('input:hidden').val()
+         console.log(csrf)
+         value  = $("#phone").val()
+        // 通知后台给手机
+        $.post('{% url 'myManage:send' %}',{'phone':value,'csrfmiddlewaretoken':csrf},function(data){
+            console.log(data)
+        },'json')
+    })
+</script>
