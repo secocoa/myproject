@@ -15,24 +15,31 @@ from adminmanage.myhelper import Mymd5
 from adminmanage.sms import SMS
 from blogs import settings
 from itertools import chain
+from myblog.views import blog
 
 
 def index(request):
-    listout = []
-    blogs = Blog.bmymanager.all()
-    for blog in blogs:
-        list1 = []  # 第一个列表存放每一次迭代出来的数据
-        category = blog.category
-        comment = blog.comments_set.count()
-        print(comment)
-        labels = blog.label.all()
-        list1.append(blog)
-        list1.append(labels)
-        list1.append(comment)
-        listout.append(list1)
-        print(list1)
-    print(listout)
-    return render(request,'adminmanage/index.html',context={'blogs':blogs,'listout':listout})
+    if request.session.get('uname'):
+        uname = request.session.get('uname')
+        user = User.umanager.get(uname=uname)
+        listout = []
+        blogs = Blog.bmymanager.filter(author_id=user.id)
+        print(blogs)
+        for blog in blogs:
+            list1 = []  # 第一个列表存放每一次迭代出来的数据
+            category = blog.category
+            comment = blog.comments_set.count()
+            print(comment)
+            labels = blog.label.all()
+            list1.append(blog)
+            list1.append(labels)
+            list1.append(comment)
+            listout.append(list1)
+            print(list1)
+        print(listout)
+        return render(request,'adminmanage/index.html',context={'blogs':blogs,'listout':listout})
+    else:
+        return  redirect(reverse('myManage:login'))
 
 
 def base(request):
@@ -62,7 +69,7 @@ def login(request):
             })
             if password == user.password and phone == user.phone and  request.POST.get('yzm') == code:
                 request.session['uname'] = uname #session 中加入名字
-                return render(request,'adminmanage/index.html')
+                return blog(request)
             else:
                 return render(request,'notice.html',context={
                 'msg': '用户名或者密码错误',
@@ -189,6 +196,7 @@ def save_article(request):
             modify_name = title + myimage.name
             modify_imagepath = os.path.join(abstract_path, modify_name)
             print(modify_imagepath)
+
             with open(modify_imagepath, 'wb',) as fp:
                 # 如果文件大于２．５Ｍ，分片读写
                 if myimage.multiple_chunks():
@@ -209,6 +217,7 @@ def save_article(request):
             blog.is_prvite = is_private
             blog.is_savedraft = is_draft
             #存储路径
+            modify_imagepath = modify_imagepath.split('blogs')[1]
             blog.files = modify_imagepath
 
             #获取用户id
@@ -241,7 +250,7 @@ def save_article(request):
         return redirect(reverse('myManage:login'))
 #修改博客
 def update_article(request,id):
-    if request.session['uname']:
+    if request.session.get('uname'):
         category = Category.cmanager.all()
         print(type(id))
         print(request.path)
@@ -270,7 +279,7 @@ def update_article(request,id):
             is_private = request.POST.get('visibility')
             myimage = request.FILES.get('picture')#获取图片
             imagepath = blog.files
-
+            imagepath = os.path.join(settings.BASE_DIR,imagepath)
             if myimage:
                 with open(imagepath, 'wb',) as fp:
                     # 如果文件大于２．５Ｍ，分片读写
@@ -322,7 +331,7 @@ def get_article(request):
     for label_set in blog.label.all():
         labelstr += label_set.lname +','
     print(labelstr)
-    imgpath = blog.files.split('blogs')[1]
+    imgpath = blog.files
     print(imgpath)
     prvite = int(blog.is_prvite)
     data = {

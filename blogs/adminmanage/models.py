@@ -58,6 +58,8 @@ class Blog(models.Model):
     author = models.ForeignKey(User)
     category = models.ForeignKey(Category)
     label = models.ManyToManyField(Label)
+    vistnums = models.IntegerField(default=0)
+    commentnums = models.IntegerField(default=0)
     is_savedraft = models.BooleanField(default=False)
     is_delete = models.BooleanField(default=False)
     is_prvite = models.BooleanField(default=False)
