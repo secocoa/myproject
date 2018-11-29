@@ -116,7 +116,7 @@
                                                       title="">
                     <img class="thumb" src="{{ blog.files }}" alt=""></a>
                     <header>
-                        <a class="cat" href="">{{ blog.category.cname}}<i></i></a>
+                        <a class="cat" href="">{{ blog.category.cname }}<i></i></a>
                         <h2><a href="{% url 'myblog:showblog' blog.id %} " title="">{{ blog.btitle }}</a></h2>
                     </header>
                     <p class="meta">
@@ -228,11 +228,13 @@
         <div class="widget widget_hot">
             <h3>热门文章</h3>
             <ul>
-                <li><a href=""><span class="thumbnail"><img class="thumb" data-original="images/excerpt.jpg" src=""
-                                                            alt=""></span><span
-                        class="text">php如何判断一个日期的格式是否正确</span><span class="muted"><i
-                        class="glyphicon glyphicon-time"></i> 2016-1-4 </span><span class="muted"><i
-                        class="glyphicon glyphicon-eye-open"></i> 120</span></a></li>
+                {% for frontblog in frontblogs %}
+                    <li><a href=""><span class="thumbnail"><img class="thumb"  src="{{ frontblog.files }}"
+                                                                alt=""></span><span
+                            class="text">{{ frontblog.btitle }}</span><span class="muted"><i
+                            class="glyphicon glyphicon-time"></i> {{ frontblog.creat_time }} </span><span class="muted"><i
+                            class="glyphicon glyphicon-eye-open"></i>{{ frontblog.vistnums }}</span></a></li>
+                {% endfor %}
             </ul>
         </div>
     </aside>
